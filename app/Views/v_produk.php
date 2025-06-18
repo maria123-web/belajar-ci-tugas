@@ -1,5 +1,6 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?> 
+
 <?php
 if (session()->getFlashData('success')) {
 ?>
@@ -56,7 +57,6 @@ if (session()->getFlashData('failed')) {
                     </a>
                 </td>
             </tr>
-
             <!-- Edit Modal Begin -->
             <div class="modal fade" id="editModal-<?= $produk['id'] ?>" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
@@ -104,6 +104,7 @@ if (session()->getFlashData('failed')) {
         <?php endforeach ?>
     </tbody>
 </table>
+
 <!-- End Table with stripped rows --> 
  <!-- Add Modal Begin -->
 <div class="modal fade" id="addModal" tabindex="-1">

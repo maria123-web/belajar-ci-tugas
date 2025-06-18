@@ -30,21 +30,7 @@ class ProductSeeder extends Seeder
                 'jumlah' => 5,
                 'foto' => 'lenovo_idepad_slim_3.jpg',
                 'created_at' => date("Y-m-d H:i:s"),
-            ],
-            [
-                'nama' => 'DELL Laptop Ideal',
-                'harga'  => 7599000,
-                'jumlah' => 7,
-                'foto' => 'dell_laptop_ideal.jpg',
-                'created_at' => date("Y-m-d H:i:s"),
-            ],
-            [
-                'nama' => 'MacBook Air 2021',
-                'harga'  => 21000000,
-                'jumlah' => 10,
-                'foto' => 'macbook_air.jpg',
-                'created_at' => date("Y-m-d H:i:s"),
-            ],
+            ]
         ];
 
         foreach ($data as $item) {
